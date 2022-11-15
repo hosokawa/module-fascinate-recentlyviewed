@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="widget_columns">
+        <column name="specified-type" component="Fascinate_RecentlyViewed/js/product/specified-type" sortOrder="1" displayArea="action-primary-area">
+            <settings>
+                <label translate="true">Specified Type</label>
+                <bodyTmpl>Fascinate_RecentlyViewed/product/specified-type</bodyTmpl>
+            </settings>
+        </column>
+        <column name="brand_value" component="Fascinate_RecentlyViewed/js/product/brand-name" sortOrder="1" displayArea="description-area">
+            <settings>
+                <label translate="true">Brand</label>
+                <bodyTmpl>Fascinate_RecentlyViewed/product/brand-name</bodyTmpl>
+            </settings>
+        </column>
+    </columns>
+</listing>

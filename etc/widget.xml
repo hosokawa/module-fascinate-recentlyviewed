@@ -7,7 +7,7 @@
 -->
 <widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
-    <widget id="fascinate_recently_viewed" class="Magento\Catalog\Block\Widget\RecentlyViewed"
+    <widget id="catalog_recently_viewed" class="Magento\Catalog\Block\Widget\RecentlyViewed"
             placeholder_image="Magento_Catalog::images/product_widget_viewed.png">
         <label translate="true">Fascinate Recently Viewed Products</label>
         <description translate="true">List of Products Recently Viewed by Visitor</description>
@@ -29,11 +29,11 @@
                     <option name="image" value="image">
                         <label translate="true">Image</label>
                     </option>
-                    <option name="price" value="price">
-                        <label translate="true">Price</label>
+                    <option name="brand_value" value="brand_value">
+                        <label translate="true">Brand</label>
                     </option>
-                    <option name="learn_more" value="learn_more">
-                        <label translate="true">Learn More Link</label>
+                    <option name="specified_type" value="specified_type">
+                        <label translate="true">Specified Type</label>
                     </option>
                 </options>
             </parameter>
